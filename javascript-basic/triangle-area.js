@@ -1,6 +1,10 @@
 // Write a JavaScript program to find the area of a triangle
 // where lengths of the three of its sides are 5, 6, 7.
 
+// Note: I've changed the program slightly, such that this program will
+// accept user input for 3 values, validate that they can make a triangle,
+// and then return the area to 4 decimal places.
+
 function triangleArea() {
   var a = parseInt(document.getElementById('side1').value);
   var b = parseInt(document.getElementById('side2').value);
